@@ -1,0 +1,20 @@
+# Theme Requirements
+
+To use Ecotheme, make sure your hosting provider is running the following software:
+
+- WordPress 4.8 or higher.
+- PHP 5.6 or greater. WordPress officially suggests to use PHP 7.2.
+- MySQL 5.6 or greater.
+
+**Recommended PHP Limits**
+
+Many issues that you may run into such as: white screen, demo content fails when importing, empty page content and other similar issues are all related to low PHP configuration limits. The solution is to increase the PHP limits. You can do this on your own, or contact your web host and ask them to increase those limits to a minimum as follows:
+
+- `max_execution_time` 180
+- `memory_limit` 128M
+- `post_max_size` 64M
+- `upload_max_filesize` 32M
+- `max_input_time` 60
+- `max_input_vars` 3000
+
+Also consider upgrading your PHP version to the [latest](http://php.net/releases/) version, the newer the better.
